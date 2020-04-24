@@ -9,7 +9,7 @@ module.exports = ({ port }) => {
     server
   })
 
-  server.listen(port, 'localhost')
+  server.listen(port)
 
   console.log('Running service on port', port)
 
